@@ -48,8 +48,8 @@ void* calc_element(void* pos){
 
 	int r = p->row ;
 	int c = p->col ;  
-
+	
 	for (int j=0;j<M;j++)
 		M3[r][c] += M1[r][j] * M2[j][c] ;
-
+	free(pos); 
 }
