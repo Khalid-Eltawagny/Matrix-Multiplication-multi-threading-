@@ -51,6 +51,7 @@ int main(int argc, char *argv[]) {
         init_M2("./tests/test3/b.txt");
         outputpath = "c.out" ; 
     }
+    
     allocate_M3(N,L) ;
     clear_M3(N,L);
     run_matrix_threaded(M1,M2,M3,N,M,L) ;  
